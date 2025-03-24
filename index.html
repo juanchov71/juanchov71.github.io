@@ -68,14 +68,27 @@
             padding: 1em;
             background-color: #333;
             color: white;
-            position: fixed;
-            bottom: 0;
-            width: 100%;
-        }
+            margin-top: 2em;
+       }
+        @media (max-width: 600px) {
+    header h1 {
+        font-size: 1.8em;
+    }
+    header p {
+        font-size: 1em;
+    }
+    .container {
+        padding: 1em;
+    }
+    .project {
+        flex: 1 1 100%; /* Los proyectos ocupan todo el ancho en pantallas pequeñas */
+    }
+}
     </style>
 </head>
 <body>
     <header>
+        <img src="https://github.com/juanchov71/juanchov71.github.io/blob/main/bannerportafolio.png" alt="Banner" style="width: 100%; max-height: 200px;">
         <h1>Juan Vargas Nieto</h1>
         <p>Full Stack Developer & AWS Cloud Engineer in Training</p>
     </header>
@@ -115,13 +128,13 @@
             </ul>
         </section>
 
-        <section id="contact" class="contact">
-            <h2>Contact Me</h2>
-            <p>
-                <a href="mailto:jevn2004@gmail.com">Email</a>
-                <a href="https://github.com/juanvargasnieto">GitHub</a>
-                <a href="https://www.linkedin.com/in/your-profile">LinkedIn</a>
-            </p>
+      <section id="contact" class="contact">
+    <h2>Contact Me</h2>
+    <p>
+        <a href="mailto:jevn2004@gmail.com"><img src="https://cdn.simpleicons.org/gmail/EA4335" alt="gmail" height="30" width="30"></a>
+        <a href="https://github.com/juanchov71"><img src="https://cdn.simpleicons.org/github/181717" alt="github" height="30" width="30"></a>
+    </p>
+</section>
         </section>
     </div>
 
