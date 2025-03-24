@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Juan Vargas Nieto - Portfolio</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f4;
+            color: #333;
+        }
+        header {
+            background-color: #1DB954; /* Verde de Spotify para un toque personal */
+            color: white;
+            text-align: center;
+            padding: 2em;
+        }
+        header h1 {
+            margin: 0;
+            font-size: 2.5em;
+        }
+        header p {
+            margin: 0.5em 0;
+            font-size: 1.2em;
+        }
+        .container {
+            max-width: 1000px;
+            margin: 0 auto;
+            padding: 2em;
+        }
+        section {
+            margin-bottom: 2em;
+        }
+        h2 {
+            color: #1DB954;
+            border-bottom: 2px solid #1DB954;
+            padding-bottom: 0.3em;
+        }
+        .projects {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 1em;
+        }
+        .project {
+            background-color: white;
+            padding: 1em;
+            border-radius: 5px;
+            box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+            flex: 1 1 300px;
+        }
+        .project h3 {
+            margin-top: 0;
+            color: #333;
+        }
+        .contact a {
+            color: #1DB954;
+            text-decoration: none;
+            margin-right: 1em;
+        }
+        .contact a:hover {
+            text-decoration: underline;
+        }
+        footer {
+            text-align: center;
+            padding: 1em;
+            background-color: #333;
+            color: white;
+            position: fixed;
+            bottom: 0;
+            width: 100%;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Juan Vargas Nieto</h1>
+        <p>Full Stack Developer & AWS Cloud Engineer in Training</p>
+    </header>
+
+    <div class="container">
+        <section id="about">
+            <h2>About Me</h2>
+            <p>Hi! I'm Juan Vargas Nieto, a Software Development student at Uniminuto University in Colombia. I'm passionate about Full Stack Development and AWS Cloud Engineering. Currently, I'm learning programming languages like JavaScript and Python, and exploring AWS services to deploy scalable applications.</p>
+        </section>
+
+        <section id="projects">
+            <h2>Projects</h2>
+            <div class="projects">
+                <div class="project">
+                    <h3>Appointment Booking Platform (In Progress)</h3>
+                    <p>A full-stack application for booking appointments, deployed on AWS using Amplify and ECS Fargate.</p>
+                    <p><strong>Technologies:</strong> React, Node.js, Amazon RDS, Amazon Cognito</p>
+                    <p><a href="#">View Project (Coming Soon)</a></p>
+                </div>
+                <div class="project">
+                    <h3>Task Management App (Planned)</h3>
+                    <p>A collaborative app for managing tasks in real-time.</p>
+                    <p><strong>Technologies:</strong> React, Node.js, WebSockets, AWS Elastic Beanstalk</p>
+                    <p><a href="#">View Project (Coming Soon)</a></p>
+                </div>
+            </div>
+        </section>
+
+        <section id="skills">
+            <h2>Skills</h2>
+            <ul>
+                <li>Languages: JavaScript, Python</li>
+                <li>Frameworks & Tools: React, Node.js, Express, Git</li>
+                <li>Cloud: AWS (EC2, S3, RDS), learning ECS Fargate and Lambda</li>
+                <li>Databases: PostgreSQL, MongoDB</li>
+                <li>Others: Docker (basic), CI/CD</li>
+            </ul>
+        </section>
+
+        <section id="contact" class="contact">
+            <h2>Contact Me</h2>
+            <p>
+                <a href="mailto:jevn2004@gmail.com">Email</a>
+                <a href="https://github.com/juanvargasnieto">GitHub</a>
+                <a href="https://www.linkedin.com/in/your-profile">LinkedIn</a>
+            </p>
+        </section>
+    </div>
+
+    <footer>
+        <p>&copy; 2025 Juan Vargas Nieto. All rights reserved.</p>
+    </footer>
+</body>
+</html>
